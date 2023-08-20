@@ -1,0 +1,47 @@
+
+
+$black: #1C1C28;
+$gray: #C8C7D8;
+$blue-black: #393953;
+$Grey: #A59EBA;
+
+.section-5 {
+    padding: 80px 0;
+    background: url("../images/Grid\ top\ \(Zero\ Height\).png") no-repeat center center / cover;
+    .youl {
+        color: white;
+        display: flex;
+        justify-content: center;
+        &-item {
+            padding: 40px 40px;
+            width: 1224px;
+            height: 248px;
+            border-radius: 16px;
+            background: var(--gradient-brand, linear-gradient(322deg, #6966FF 0%, rgba(105, 102, 255, 0.36) 100%));
+            gap: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+                h6 {
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 450;
+                    line-height: 24px;
+                    letter-spacing: -0.252px;
+                }
+                h2 {
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -0.88px;
+                }
+            }
+            button {
+                padding: 12px 16px;
+                border: 7.29px;
+            }
+        }
+        }
+}

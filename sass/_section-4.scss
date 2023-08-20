@@ -1,0 +1,88 @@
+
+$black: #1C1C28;
+$gray: #C8C7D8;
+$blue-black: #393953;
+$Grey: #A59EBA;
+
+.section-4 {
+    padding: 80px 80px;
+    background: url("../images/Grid\ top\ \(Zero\ Height\).png") no-repeat center center / cover;
+    .title-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        position: relative;
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -0.88px;
+        }
+        p {
+            width: 600px;
+            text-align: center;
+        }
+        img {
+            position: absolute;
+            top: 40px;
+            right: 425px;
+            width: 171px;
+            height: 16px;
+        }
+    }
+    .numbers-boxs {
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        gap: 24px;
+        position: relative;
+        &-item {
+            &:nth-child(1) {
+                transform: rotate(-1deg);
+            }
+            &:nth-child(2) {
+                transform: rotate(1deg);
+            }
+            &:nth-child(3) {
+                transform: rotate(-2deg);
+            }
+            background-color: $blue-black;
+            width: 392px;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 24px 24px;
+            border-radius: 16px;
+            h3 {
+                font-size: 64px;
+            }
+            .title-number {
+                h5 {
+                    font-family: Circular Std;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px; 
+                    letter-spacing: -0.456px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 450;
+                    line-height: 24px;
+                    letter-spacing: -0.176px;
+                }
+            }
+        }
+        .img-1 {
+            position: absolute;
+            top: 10px;
+            left: 340px;
+        }
+        .img-2 {
+            position: absolute;
+            bottom: 100px;
+            right: 360px;
+        }
+    }
+}

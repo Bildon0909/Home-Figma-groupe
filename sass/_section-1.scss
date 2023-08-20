@@ -1,0 +1,99 @@
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+$black: #1C1C28;
+$gray: #C8C7D8;
+$blue-black: #393953;
+$Grey: #A59EBA;
+
+// CLEAR
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+// CLEAR
+
+.section-1 {
+    background: url("../images/Grid\ top\ \(Zero\ Height\).png") no-repeat center center / cover;
+    padding: 80px 0;
+    .big-box {
+        display: flex;
+        flex-direction: column;
+        .box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            hanging-punctuation: 24px;
+            .box-title {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                h2 {
+                    text-align: center;
+                    color: white;
+                }
+                p {
+                    text-align: center;
+                    color: white;
+                    width: 600px;
+                }
+            }
+            a {
+              
+            }
+        }
+        .demo {
+            padding-top: 80px;
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            &-item {
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                color: white;
+                width: 352px;
+                height: 560px;
+                border-radius: 16px;
+                justify-content: start;
+                background-color: $blue-black;
+                img {
+                    background-color: #1C1C28;
+                    border-radius: 16px;
+                }
+                &-title {
+                    padding: 24px 24px;
+                    display: flex;
+                    flex-direction: column;
+                    h6 {
+                        color: $Grey;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                p {
+                    padding: 0 24px;
+                    font-size: 12px;
+                    font-weight: 450;
+                    line-height: 24px;
+                    letter-spacing: -0.176px;
+                }
+                .avatars {
+                    position: absolute;
+                    top: 510px;
+                    left: 10px;
+                    img {
+                        background-color: $blue-black;
+                    }
+                }
+            }
+        }
+    }
+}

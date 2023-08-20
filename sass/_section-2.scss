@@ -1,0 +1,68 @@
+$black: #1C1C28;
+$gray: #C8C7D8;
+$blue-black: #393953;
+$Grey: #A59EBA;
+
+
+.section-2{
+    background: url("../images/Grid\ top\ \(Zero\ Height\).png") no-repeat center center / cover;
+    padding: 50px 0;
+    .title-2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 70px;
+        h2 {
+            color: var(--text-icon-primary, #FFF);
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: -0.88px;
+        }
+        p {
+            color: $gray;
+            max-width: 600px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.252px;
+        }
+        img {
+            position: absolute;
+            top: -40px;
+            right: 475px;
+        }
+    }
+    .femo {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        &-item {
+            color: white;
+            &-end {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 362px;
+                background-color: $blue-black;
+                border-radius: 16px;
+                .box-title-femo {
+                    padding: 24px 24px;
+                    &-title {
+                        p {
+                            color: $gray;
+                            font-size: 16px;
+                            line-height: 24px; 
+                        }
+                    }
+                    p {
+                        color: $gray;
+                        font-size: 16px;
+                        line-height: 24px; 
+                    }
+                }
+            }
+        }
+    }
+}

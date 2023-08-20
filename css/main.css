@@ -1,0 +1,876 @@
+* {
+  font-family: 'Space Mono', monospace; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  cursor: pointer;
+  border: none; }
+
+.section-1 {
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover;
+  padding: 80px 0; }
+  .section-1 .big-box {
+    display: flex;
+    flex-direction: column; }
+    .section-1 .big-box .box {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      hanging-punctuation: 24px; }
+      .section-1 .big-box .box .box-title {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; }
+        .section-1 .big-box .box .box-title h2 {
+          text-align: center;
+          color: white; }
+        .section-1 .big-box .box .box-title p {
+          text-align: center;
+          color: white;
+          width: 600px; }
+    .section-1 .big-box .demo {
+      padding-top: 80px;
+      display: flex;
+      gap: 24px;
+      justify-content: center; }
+      .section-1 .big-box .demo-item {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        color: white;
+        width: 352px;
+        height: 560px;
+        border-radius: 16px;
+        justify-content: start;
+        background-color: #393953; }
+        .section-1 .big-box .demo-item img {
+          background-color: #1C1C28;
+          border-radius: 16px; }
+        .section-1 .big-box .demo-item-title {
+          padding: 24px 24px;
+          display: flex;
+          flex-direction: column; }
+          .section-1 .big-box .demo-item-title h6 {
+            color: #A59EBA;
+            font-size: 16px;
+            line-height: 24px; }
+        .section-1 .big-box .demo-item p {
+          padding: 0 24px;
+          font-size: 12px;
+          font-weight: 450;
+          line-height: 24px;
+          letter-spacing: -0.176px; }
+        .section-1 .big-box .demo-item .avatars {
+          position: absolute;
+          top: 510px;
+          left: 10px; }
+          .section-1 .big-box .demo-item .avatars img {
+            background-color: #393953; }
+
+.section-2 {
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover;
+  padding: 50px 0; }
+  .section-2 .title-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px; }
+    .section-2 .title-2 h2 {
+      color: var(--text-icon-primary, #FFF);
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+    .section-2 .title-2 p {
+      color: #C8C7D8;
+      max-width: 600px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.252px; }
+    .section-2 .title-2 img {
+      position: absolute;
+      top: -40px;
+      right: 475px; }
+  .section-2 .femo {
+    display: flex;
+    justify-content: center;
+    gap: 24px; }
+    .section-2 .femo-item {
+      color: white; }
+      .section-2 .femo-item-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 362px;
+        background-color: #393953;
+        border-radius: 16px; }
+        .section-2 .femo-item-end .box-title-femo {
+          padding: 24px 24px; }
+          .section-2 .femo-item-end .box-title-femo-title p {
+            color: #C8C7D8;
+            font-size: 16px;
+            line-height: 24px; }
+          .section-2 .femo-item-end .box-title-femo p {
+            color: #C8C7D8;
+            font-size: 16px;
+            line-height: 24px; }
+
+.section-3 {
+  padding: 80px 80px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .section-3 .title-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    padding-bottom: 80px; }
+    .section-3 .title-3 h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+    .section-3 .title-3 p {
+      color: #C8C7D8;
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.252px;
+      width: 600px; }
+    .section-3 .title-3 img {
+      position: absolute;
+      width: 240px;
+      height: 79px;
+      right: 325px;
+      top: -15px; }
+  .section-3 .box-boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .section-3 .box-boxs-item {
+      display: flex;
+      justify-content: space-between;
+      height: 72px;
+      align-items: center;
+      padding: 24px 24px;
+      color: white;
+      width: 808px;
+      border-top: 1px solid #393953;
+      border-bottom: 1px solid #393953; }
+      .section-3 .box-boxs-item h5 {
+        font-size: 18px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.252px; }
+      .section-3 .box-boxs-item span {
+        width: 24px;
+        height: 24px; }
+
+.section-4 {
+  padding: 80px 80px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .section-4 .title-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative; }
+    .section-4 .title-4 h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+    .section-4 .title-4 p {
+      width: 600px;
+      text-align: center; }
+    .section-4 .title-4 img {
+      position: absolute;
+      top: 40px;
+      right: 425px;
+      width: 171px;
+      height: 16px; }
+  .section-4 .numbers-boxs {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 24px;
+    position: relative; }
+    .section-4 .numbers-boxs-item {
+      background-color: #393953;
+      width: 392px;
+      height: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      padding: 24px 24px;
+      border-radius: 16px; }
+      .section-4 .numbers-boxs-item:nth-child(1) {
+        transform: rotate(-1deg); }
+      .section-4 .numbers-boxs-item:nth-child(2) {
+        transform: rotate(1deg); }
+      .section-4 .numbers-boxs-item:nth-child(3) {
+        transform: rotate(-2deg); }
+      .section-4 .numbers-boxs-item h3 {
+        font-size: 64px; }
+      .section-4 .numbers-boxs-item .title-number h5 {
+        font-family: Circular Std;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.456px; }
+      .section-4 .numbers-boxs-item .title-number p {
+        font-size: 16px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.176px; }
+    .section-4 .numbers-boxs .img-1 {
+      position: absolute;
+      top: 10px;
+      left: 340px; }
+    .section-4 .numbers-boxs .img-2 {
+      position: absolute;
+      bottom: 100px;
+      right: 360px; }
+
+.section-5 {
+  padding: 80px 0;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .section-5 .youl {
+    color: white;
+    display: flex;
+    justify-content: center; }
+    .section-5 .youl-item {
+      padding: 40px 40px;
+      width: 1224px;
+      height: 248px;
+      border-radius: 16px;
+      background: var(--gradient-brand, linear-gradient(322deg, #6966FF 0%, rgba(105, 102, 255, 0.36) 100%));
+      gap: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .section-5 .youl-item .title h6 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.252px; }
+      .section-5 .youl-item .title h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.88px; }
+      .section-5 .youl-item button {
+        padding: 12px 16px;
+        border: 7.29px; }
+
+footer {
+  padding: 80px 40px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  footer .foot {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center; }
+    footer .foot-start {
+      display: flex; }
+      footer .foot-start img {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        align-items: center; }
+      footer .foot-start ul {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        height: 60px; }
+        footer .foot-start ul li a {
+          color: #C8C7D8;
+          font-size: 16px;
+          line-height: 24px; }
+    footer .foot-end {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      gap: 20px; }
+      footer .foot-end i {
+        width: 24px;
+        height: 24px;
+        color: white; }
+
+.funded-1 {
+  padding: 80px 0;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .funded-1 .funded-title {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #393953;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    color: white; }
+    .funded-1 .funded-title-help h6 {
+      color: #A59EBA;
+      font-size: 16px;
+      line-height: 24px; }
+    .funded-1 .funded-title-help h1 {
+      max-width: 808px;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: -1.32px; }
+    .funded-1 .funded-title-help .funded-box {
+      display: flex;
+      justify-content: space-between;
+      height: 48px;
+      align-items: center; }
+      .funded-1 .funded-title-help .funded-box-start {
+        display: flex;
+        gap: 16px;
+        height: 48px;
+        align-items: center; }
+        .funded-1 .funded-title-help .funded-box-start button {
+          padding: 4px 16px;
+          border-radius: 100px;
+          background: var(--accent-green, #16B57F);
+          color: white; }
+          .funded-1 .funded-title-help .funded-box-start button span {
+            color: white; }
+        .funded-1 .funded-title-help .funded-box-start h6 {
+          color: #A59EBA;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.176px; }
+          .funded-1 .funded-title-help .funded-box-start h6 span {
+            color: white; }
+    .funded-1 .funded-title-help h5 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.34px; }
+  .funded-1 .funded-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0 0 0; }
+    .funded-1 .funded-content-item {
+      display: flex;
+      flex-direction: column;
+      gap: 16px; }
+      .funded-1 .funded-content-item:nth-child(6) .funded-content-item-start {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #393953;
+        padding: 24px 24px;
+        border-radius: 16px; }
+        .funded-1 .funded-content-item:nth-child(6) .funded-content-item-start .box-child-6 {
+          display: flex;
+          justify-content: space-between; }
+        .funded-1 .funded-content-item:nth-child(6) .funded-content-item-start .d-flex {
+          height: 20px; }
+          .funded-1 .funded-content-item:nth-child(6) .funded-content-item-start .d-flex p {
+            line-height: 20px; }
+      .funded-1 .funded-content-item:nth-child(6) .funded-content-item-end {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #393953;
+        padding: 24px 24px;
+        border-radius: 16px; }
+        .funded-1 .funded-content-item:nth-child(6) .funded-content-item-end .box-child-6 {
+          display: flex;
+          justify-content: space-between; }
+        .funded-1 .funded-content-item:nth-child(6) .funded-content-item-end .d-flex {
+          height: 20px; }
+          .funded-1 .funded-content-item:nth-child(6) .funded-content-item-end .d-flex p {
+            line-height: 20px; }
+      .funded-1 .funded-content-item h5 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.34px; }
+      .funded-1 .funded-content-item p {
+        color: #C8C7D8;
+        font-family: Circular Std;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.176px; }
+
+.funded-2 {
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover;
+  padding: 80px 0; }
+  .funded-2 .title-funded {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+    align-items: center; }
+    .funded-2 .title-funded h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+  .funded-2 .lero {
+    padding-top: 80px;
+    display: flex;
+    gap: 24px;
+    justify-content: center; }
+    .funded-2 .lero-item {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      color: white;
+      width: 352px;
+      height: 560px;
+      border-radius: 16px;
+      justify-content: start;
+      background-color: #393953; }
+      .funded-2 .lero-item img {
+        background-color: #1C1C28;
+        border-radius: 16px; }
+      .funded-2 .lero-item-title {
+        padding: 24px 24px;
+        display: flex;
+        flex-direction: column; }
+        .funded-2 .lero-item-title h6 {
+          color: #A59EBA;
+          font-size: 16px;
+          line-height: 24px; }
+      .funded-2 .lero-item p {
+        padding: 0 24px;
+        font-size: 12px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.176px; }
+      .funded-2 .lero-item .lero-avatars {
+        position: absolute;
+        top: 510px;
+        left: 10px; }
+        .funded-2 .lero-item .lero-avatars img {
+          background-color: #393953; }
+
+footer {
+  padding: 80px 40px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  footer .foot {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center; }
+    footer .foot-start {
+      display: flex; }
+      footer .foot-start img {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        align-items: center; }
+      footer .foot-start ul {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        height: 60px; }
+        footer .foot-start ul li a {
+          color: #C8C7D8;
+          font-size: 16px;
+          line-height: 24px; }
+    footer .foot-end {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      gap: 20px; }
+      footer .foot-end i {
+        width: 24px;
+        height: 24px;
+        color: white; }
+
+.grants-1 {
+  padding: 80px 0 40px 0;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .grants-1 .title-grants {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    color: white; }
+    .grants-1 .title-grants h1 {
+      text-align: center;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 72px;
+      letter-spacing: -1.32px; }
+    .grants-1 .title-grants p {
+      max-width: 808px;
+      color: #C8C7D8;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 450;
+      line-height: 24px;
+      letter-spacing: -0.252px; }
+      .grants-1 .title-grants p a {
+        font-size: 18px;
+        font-weight: 450;
+        line-height: 24px;
+        letter-spacing: -0.252px; }
+
+.grants-2 {
+  padding: 80px 0;
+  height: 1057px; }
+  .grants-2 .box-img-and-title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center; }
+    .grants-2 .box-img-and-title h2 {
+      text-align: center;
+      font-size: 40px;
+      color: white;
+      padding-right: 400px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+    .grants-2 .box-img-and-title img {
+      max-width: 808px;
+      max-height: 817px; }
+
+footer {
+  padding: 80px 40px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  footer .foot {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center; }
+    footer .foot-start {
+      display: flex; }
+      footer .foot-start img {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        align-items: center; }
+      footer .foot-start ul {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        height: 60px; }
+        footer .foot-start ul li a {
+          color: #C8C7D8;
+          font-size: 16px;
+          line-height: 24px; }
+    footer .foot-end {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      gap: 20px; }
+      footer .foot-end i {
+        width: 24px;
+        height: 24px;
+        color: white; }
+
+body {
+  background-image: url("../images/Grid.png");
+  background-color: #060119; }
+  body header nav {
+    padding: 24px 32px;
+    height: 120px;
+    display: flex;
+    align-items: center; }
+    body header nav .collapse {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: end; }
+      body header nav .collapse ul {
+        display: flex;
+        align-items: center;
+        gap: 10px; }
+        body header nav .collapse ul li a {
+          color: #C8C7D8; }
+  body .hero {
+    margin-top: 128px;
+    align-items: center;
+    text-align: center;
+    color: white; }
+    body .hero .product {
+      padding-top: 40px; }
+      body .hero .product a {
+        text-decoration: none;
+        color: white;
+        padding: 10px; }
+  body section {
+    padding: 80px 0; }
+    body section .container .parrent {
+      border-radius: 16px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #393953;
+      color: white;
+      padding: 30px;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 65%; }
+      body section .container .parrent .child .opened {
+        background-color: #6966FF;
+        border-radius: 100px;
+        padding: 4px 14px;
+        color: white;
+        font-size: 16px;
+        margin-top: 6px;
+        margin-right: 15px;
+        border: none; }
+      body section .container .parrent .complet {
+        background-color: #16B57F;
+        border-radius: 100px;
+        padding: 4px 14px;
+        color: white;
+        font-size: 16px;
+        margin: 6px;
+        margin-right: 15px;
+        border: none; }
+      body section .container .parrent .funded {
+        background-color: black;
+        border-radius: 100px;
+        padding: 4px 14px;
+        color: white;
+        font-size: 16px;
+        margin: 6px;
+        margin-right: 15px;
+        border: none; }
+      body section .container .parrent .putic {
+        display: flex;
+        gap: 20px;
+        font-family: Space, monospace;
+        font-weight: 400;
+        color: gray; }
+
+body {
+  background-image: url("../images/Grid.png");
+  background-color: #060119; }
+  body header nav {
+    padding: 24px 32px;
+    height: 120px;
+    display: flex;
+    align-items: center; }
+    body header nav .collapse {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: end; }
+      body header nav .collapse ul {
+        display: flex;
+        align-items: center;
+        gap: 10px; }
+        body header nav .collapse ul li a {
+          color: #C8C7D8; }
+  body .hero {
+    margin-top: 128px;
+    align-items: center;
+    text-align: center;
+    color: white; }
+    body .hero .product {
+      padding-top: 40px; }
+      body .hero .product a {
+        text-decoration: none;
+        color: white;
+        padding: 10px; }
+  body section .container .parrent {
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #393953;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 65%; }
+    body section .container .parrent .child .opened {
+      background-color: #6966FF;
+      border-radius: 100px;
+      padding: 4px 14px;
+      color: white;
+      font-size: 16px;
+      margin-top: 6px;
+      margin-right: 15px;
+      border: none; }
+    body section .container .parrent .complet {
+      background-color: #16B57F;
+      border-radius: 100px;
+      padding: 4px 14px;
+      color: white;
+      font-size: 16px;
+      margin: 6px;
+      margin-right: 15px;
+      border: none; }
+    body section .container .parrent .funded {
+      background-color: black;
+      border-radius: 100px;
+      padding: 4px 14px;
+      color: white;
+      font-size: 16px;
+      margin: 6px;
+      margin-right: 15px;
+      border: none; }
+    body section .container .parrent .putic {
+      font-family: Space, monospace;
+      font-weight: 400;
+      color: gray; }
+
+header nav {
+  padding: 24px 32px;
+  height: 120px;
+  display: flex;
+  align-items: center; }
+  header nav .collapse {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: end; }
+    header nav .collapse ul {
+      display: flex;
+      align-items: center;
+      gap: 10px; }
+      header nav .collapse ul li a {
+        color: #C8C7D8; }
+
+.section-3 {
+  padding: 80px 80px;
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  .section-3 .title-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    padding-bottom: 80px; }
+    .section-3 .title-3 h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.88px; }
+    .section-3 .title-3 p {
+      color: #C8C7D8;
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.252px;
+      width: 600px; }
+  .section-3 h4 {
+    color: white;
+    padding: 50px 0 20px 0;
+    font-weight: 700;
+    text-align: center; }
+
+.box-boxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .box-boxs-item {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    padding: 24px 24px;
+    color: white;
+    width: 808px;
+    border-top: 1px solid #393953;
+    border-bottom: 1px solid #393953; }
+    .box-boxs-item h5 {
+      font-size: 18px;
+      font-weight: 450;
+      line-height: 24px;
+      letter-spacing: -0.252px; }
+    .box-boxs-item span {
+      width: 24px;
+      height: 24px; }
+
+* {
+  font-family: 'Space Mono', monospace; }
+
+body {
+  background-color: #1C1C28; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  cursor: pointer;
+  border: none; }
+
+header {
+  background: url("../images/Grid top (Zero Height).png") no-repeat center center/cover; }
+  header nav {
+    padding: 24px 32px;
+    height: 120px;
+    display: flex;
+    align-items: center; }
+    header nav .collapse {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: end; }
+      header nav .collapse ul {
+        display: flex;
+        align-items: center;
+        gap: 10px; }
+        header nav .collapse ul li a {
+          color: #C8C7D8; }
+  header .header-content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative; }
+    header .header-content-title h1 {
+      width: 908px;
+      color: #FFF;
+      text-align: center;
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 88px;
+      letter-spacing: -1.76px; }
+    header .header-content-title .box-line img {
+      position: absolute;
+      right: 393px;
+      bottom: 310px; }
+    header .header-content-title-buttons {
+      display: flex;
+      gap: 32px; }
+      header .header-content-title-buttons .got {
+        color: white;
+        background-color: #393953;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 0.25rem; }
+    header .header-content-title-foot {
+      padding: 80px 80px;
+      display: flex;
+      gap: 48px; }
+      header .header-content-title-foot .box-item {
+        color: white;
+        width: 237px; }
+        header .header-content-title-foot .box-item h6 {
+          text-align: center; }
+        header .header-content-title-foot .box-item p {
+          text-align: center;
+          color: #C8C7D8; }
+
+.line {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,119 @@
+@import "./section-1.scss";
+@import "./section-2.scss";
+@import "./section-3.scss";
+@import "./section-4.scss";
+@import "./section-5.scss";
+@import "./footer.scss";
+@import "./funded.scss";
+@import "./grants.scss";
+@import "./program.scss";
+@import "./rfps.scss";
+@import "./faq.scss";
+
+* {
+    font-family: 'Space Mono', monospace;
+}
+
+$black: #1C1C28;
+$gray: #C8C7D8;
+$blue-black: #393953;
+$Grey: #A59EBA;
+
+
+body {
+    background-color: #1C1C28;
+}
+
+// CLEAR
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+// CLEAR
+
+header {
+    background: url("../images/Grid\ top\ \(Zero\ Height\).png") no-repeat center center / cover;
+    nav {
+        padding: 24px 32px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        .collapse {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            justify-content: end;
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 10px; 
+                li {
+                    a {
+                        color: #C8C7D8;
+                    }
+                }
+            }
+        }
+    }
+    .header-content-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        h1 {
+            width: 908px;
+            color: #FFF;
+            text-align: center;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 88px;
+            letter-spacing: -1.76px;
+        }
+        .box-line {
+            img {
+                position: absolute;
+                right: 393px;
+                bottom: 310px;
+            }
+        }
+        &-buttons {
+            display: flex;
+            gap: 32px;
+            .got {
+                color: white;
+                background-color: $blue-black;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                border-radius: 0.25rem;
+            }
+        }
+        &-foot {
+            padding: 80px 80px;
+            display: flex;
+            gap: 48px;
+            .box-item {
+                color: white;
+                width: 237px;
+                h6 {
+                    text-align: center;
+                }
+                p {
+                    text-align: center;
+                    color: $gray;
+                }
+            }
+        }
+    }
+}
+.line {
+    display: flex;
+    justify-content: center;
+}
